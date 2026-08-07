@@ -1,0 +1,12 @@
+[package]
+name = "otto-crypto"
+version = "0.1.0"
+edition = "2021"
+description = "Otto-Crypto contract-first cryptographic library"
+license = "UNLICENSED"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1.0"
